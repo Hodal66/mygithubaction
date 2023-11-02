@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
      - name: checkout codes
-       uses: actions/chechout@v2
+       uses: actions/checkout@v2
 
      - name: runs Super Linter
        uses: GitHub/super-superliner@v2
